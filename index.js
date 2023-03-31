@@ -796,7 +796,7 @@
 
   const emptySnippetItem = {
     id: "emptySnippetItem",
-    displayText: "empty",
+    displayText: "空的",
     scopeType: workspaceScope,
     weight: 100,
     preconditionFn: () => "disabled",
