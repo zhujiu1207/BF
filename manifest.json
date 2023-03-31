@@ -1,9 +1,9 @@
 {
-  "id": "bf2042-portal-snippet-plugin",
-  "name": "Snippets",
+  "id": "战地2042门户编辑器扩展插件",
+  "name": "代码片段",
   "version": "1.3.0",
-  "homepage": "https://the0zzy.github.io/bf2042-portal-snippet-plugin/",
+  "homepage": "https://zhujiu1207.github.io/BF2042/",
   "description": "Insert snippets of blocks to your portal workspace",
-  "author": "TheOzzy",
+  "author": "zhujiu1207",
   "main": "index.js"
 }
