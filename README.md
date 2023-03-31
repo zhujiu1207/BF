@@ -16,7 +16,7 @@ This is a plugin for the [Battlefield Portal Browser Extension](https://github.c
 4. Click on `Add plugin` and enter the following url
 
 ```txt
-https://zhujiu1207.github.io/bf2042-portal-snippet-plugin/manifest.json
+https://zhujiu1207.github.io/BF/manifest.json
 ```
 
 ## Features
