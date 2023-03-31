@@ -784,7 +784,7 @@
 
   const manageSnippetsItem = {
     id: "manageSnippets",
-    displayText: "Manage Snippets",
+    displayText: "管理代码片段",
     scopeType: workspaceScope,
     weight: 100,
     preconditionFn: () => "enabled",
