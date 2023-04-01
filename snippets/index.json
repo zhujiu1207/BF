@@ -1,0 +1,124 @@
+{
+    "items":
+    [
+        {
+            "id": "createVector000",
+            "category": "预设模块",
+            "url": "snippets/vector/createVector000.xml",
+            "name": "创建矢量",
+            "description": "Adds a CreateVector block with three literals set as 0"
+        },
+        {
+            "id": "setYawToObject",
+            "category": "Vector",
+            "url": "snippets/vector/setYawToObject.xml",
+            "name": "人物方向",
+            "description": "A subroutine block that calculates the necessary yaw of player or vehicle for teleporting in order to face in the direction of the given object/position-vector"
+        },
+        {
+            "id": "bounceBackPlayer",
+            "category": "Vector",
+            "url": "snippets/vector/bounceBackPlayer.xml",
+            "name": "Bounce Back Player",
+            "description": "Adds two subroutines which enable bouncing back a player in the opposite direction of his current movement"
+        },
+        {
+            "id": "customHeaderMessage",
+            "category": "消息模块",
+            "url": "snippets/message/customHeaderMessage.xml",
+            "name": "显示自定义消息",
+            "description": "Adds an example DisplayCustomMessage block for the header slot"
+        },
+        {
+            "id": "for",
+            "category": "控制动作模块",
+            "url": "snippets/loop/for.xml",
+            "name": "循环变量",
+            "description": "Adds a simple loop from 0 to 9 by 1"
+        },
+        {
+            "id": "forArray",
+            "category": "Loop",
+            "url": "snippets/loop/forArray.xml",
+            "name": "循环变量 (计数)",
+            "description": "Adds a simple loop from 0 to CountOf() by 1"
+        },
+        {
+            "id": "tickrate",
+            "category": "Loop",
+            "url": "snippets/loop/tickrate.xml",
+            "name": "索引变量",
+            "description": "Adds a complex set of rules and a tick subroutine which is called by every server-tick"
+        },
+        {
+            "id": "while",
+            "category": "Loop",
+            "url": "snippets/loop/while.xml",
+            "name": "同时模块",
+            "description": "Adds a while-loop with a wait block"
+        },
+        {
+            "id": "displayPositionCoordinates",
+            "category": "玩家模块",
+            "url": "snippets/player/displayPositionCoordinates.xml",
+            "name": "获取地图坐标",
+            "description": "Adds a rule to continuously display the current players position in the header message"
+        },
+        {
+            "id": "getPlayerStateBool",
+            "category": "Player",
+            "url": "snippets/player/getPlayerStateBool.xml",
+            "name": "获取玩家状态布尔值",
+            "description": "Adds a pre-filled GetPlayerState block with EventPlayer and PlayerState(Bool) selection value"
+        },
+        {
+            "id": "getPlayerStateNumber",
+            "category": "Player",
+            "url": "snippets/player/getPlayerStateNumber.xml",
+            "name": "获取玩家状态数量",
+            "description": "Adds a pre-filled GetPlayerState block with EventPlayer and PlayerState(Number) selection value"
+        },
+        {
+            "id": "getPlayerStateVector",
+            "category": "Player",
+            "url": "snippets/player/getPlayerStateVector.xml",
+            "name": "获取玩家状态矢量",
+            "description": "Adds a pre-filled GetPlayerState block with EventPlayer and PlayerState(Vector) selection value"
+        },
+        {
+            "id": "executeEverySecondGlobal",
+            "category": "Time",
+            "url": "snippets/time/executeEverySecondGlobal.xml",
+            "name": "Execute Every Second (Global)",
+            "description": "Adds two rules and one subroutine that is executed every second in the global context"
+        },
+        {
+            "id": "executeEverySecondPlayer",
+            "category": "Time",
+            "url": "snippets/time/executeEverySecondPlayer.xml",
+            "name": "Execute Every Second (Player)",
+            "description": "Adds two rules and one subroutine that is executed every second in each player context"
+        },
+        {
+            "id": "executeEverySecondTeam",
+            "category": "Time",
+            "url": "snippets/time/executeEverySecondTeam.xml",
+            "name": "Execute Every Second (Team)",
+            "description": "Adds two rules and one subroutine that is executed every second for each team"
+        },
+        {
+            "id": "displayRemainingTimeMMss",
+            "category": "Time",
+            "url": "snippets/time/displayRemainingTimeMMss.xml",
+            "name": "Display Remaining Time (mm:ss)",
+            "description": "Adds a subroutine which will display the remaining game mode time in the format of mm:ss"
+        },
+        {
+            "id": "teamSwitchUtility",
+            "category": "Gameplay",
+            "url": "snippets/gameplay/teamSwitchUtility.xml",
+            "name": "Teamswitch Utility",
+            "description": "Adds a set of rules to enable teamswitch"
+        }
+    ]
+}
