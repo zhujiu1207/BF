@@ -902,21 +902,21 @@
 
   const insertSnippetFavouritesMenu = plugin.createMenu(
     "insertSnippetFavouritesMenu",
-    "Favourites",
+    "最爱",
     workspaceScope
   );
   insertSnippetFavouritesMenu.options = ["items.emptySnippetItem"];
 
   const insertSnippetPrivateMenu = plugin.createMenu(
     "insertSnippetPrivateMenu",
-    "Private",
+    "私人",
     workspaceScope
   );
   insertSnippetPrivateMenu.options = ["items.emptySnippetItem"];
 
   const insertSnippetMenu = plugin.createMenu(
     "insertSnippetMenu",
-    "Insert Snippet",
+    "插入片段",
     workspaceScope
   );
 
