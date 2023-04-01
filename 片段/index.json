@@ -3,16 +3,16 @@
     [
         {
             "id": "createVector000",
-            "category": "Vector",
+            "category": "预设模块",
             "url": "snippets/vector/createVector000.xml",
-            "name": "CreateVector(000)",
+            "name": "创建矢量",
             "description": "Adds a CreateVector block with three literals set as 0"
         },
         {
             "id": "setYawToObject",
             "category": "Vector",
             "url": "snippets/vector/setYawToObject.xml",
-            "name": "SetYawToObject",
+            "name": "人物方向",
             "description": "A subroutine block that calculates the necessary yaw of player or vehicle for teleporting in order to face in the direction of the given object/position-vector"
         },
         {
@@ -24,65 +24,65 @@
         },
         {
             "id": "customHeaderMessage",
-            "category": "Message",
+            "category": "消息模块",
             "url": "snippets/message/customHeaderMessage.xml",
-            "name": "Custom Header Message",
+            "name": "显示自定义消息",
             "description": "Adds an example DisplayCustomMessage block for the header slot"
         },
         {
             "id": "for",
-            "category": "Loop",
+            "category": "控制动作模块",
             "url": "snippets/loop/for.xml",
-            "name": "For-Loop",
+            "name": "循环变量",
             "description": "Adds a simple loop from 0 to 9 by 1"
         },
         {
             "id": "forArray",
             "category": "Loop",
             "url": "snippets/loop/forArray.xml",
-            "name": "For-Loop (Array)",
+            "name": "循环变量 (计数)",
             "description": "Adds a simple loop from 0 to CountOf() by 1"
         },
         {
             "id": "tickrate",
             "category": "Loop",
             "url": "snippets/loop/tickrate.xml",
-            "name": "Tickrate",
+            "name": "索引变量",
             "description": "Adds a complex set of rules and a tick subroutine which is called by every server-tick"
         },
         {
             "id": "while",
             "category": "Loop",
             "url": "snippets/loop/while.xml",
-            "name": "While-Loop",
+            "name": "同时模块",
             "description": "Adds a while-loop with a wait block"
         },
         {
             "id": "displayPositionCoordinates",
-            "category": "Player",
+            "category": "玩家模块",
             "url": "snippets/player/displayPositionCoordinates.xml",
-            "name": "Display Player Position (continuously)",
+            "name": "获取地图坐标",
             "description": "Adds a rule to continuously display the current players position in the header message"
         },
         {
             "id": "getPlayerStateBool",
             "category": "Player",
             "url": "snippets/player/getPlayerStateBool.xml",
-            "name": "Get Player State (Bool)",
+            "name": "获取玩家状态布尔值",
             "description": "Adds a pre-filled GetPlayerState block with EventPlayer and PlayerState(Bool) selection value"
         },
         {
             "id": "getPlayerStateNumber",
             "category": "Player",
             "url": "snippets/player/getPlayerStateNumber.xml",
-            "name": "Get Player State (Number)",
+            "name": "获取玩家状态数量",
             "description": "Adds a pre-filled GetPlayerState block with EventPlayer and PlayerState(Number) selection value"
         },
         {
             "id": "getPlayerStateVector",
             "category": "Player",
             "url": "snippets/player/getPlayerStateVector.xml",
-            "name": "Get Player State (Vector)",
+            "name": "获取玩家状态矢量",
             "description": "Adds a pre-filled GetPlayerState block with EventPlayer and PlayerState(Vector) selection value"
         },
         {
