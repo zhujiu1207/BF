@@ -2,7 +2,7 @@
     "items":
     [
         {
-            "id": "createVector000",
+            "id": "预设模块",
             "category": "预设模块",
             "url": "snippets/vector/createVector000.xml",
             "name": "创建矢量",
