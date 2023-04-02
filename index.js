@@ -1,5 +1,5 @@
 (function () {
-  const pluginId = "bf2042-portal-snippet-plugin";
+  const pluginId = "BF042";
   const plugin = BF2042Portal.Plugins.getPlugin(pluginId);
   const workspaceScope = _Blockly.ContextMenuRegistry.ScopeType.WORKSPACE;
   const blockScope = _Blockly.ContextMenuRegistry.ScopeType.BLOCK;
