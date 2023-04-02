@@ -1,5 +1,5 @@
 (function () {
-  const pluginId = "BF042";
+  const pluginId = "BF2042";
   const plugin = BF2042Portal.Plugins.getPlugin(pluginId);
   const workspaceScope = _Blockly.ContextMenuRegistry.ScopeType.WORKSPACE;
   const blockScope = _Blockly.ContextMenuRegistry.ScopeType.BLOCK;
