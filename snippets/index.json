@@ -10,16 +10,16 @@
         },
         {
             "id": "setYawToObject",
-            "category": "Vector",
+            "category": "方向和击退",
             "url": "snippets/vector/setYawToObject.xml",
-            "name": "人物方向",
+            "name": "两个位置之间的偏航/旋转",
             "description": "A subroutine block that calculates the necessary yaw of player or vehicle for teleporting in order to face in the direction of the given object/position-vector"
         },
         {
             "id": "bounceBackPlayer",
             "category": "Vector",
             "url": "snippets/vector/bounceBackPlayer.xml",
-            "name": "Bounce Back Player",
+            "name": "向后击退玩家",
             "description": "Adds two subroutines which enable bouncing back a player in the opposite direction of his current movement"
         },
         {
@@ -33,12 +33,12 @@
             "id": "for",
             "category": "控制动作模块",
             "url": "snippets/loop/for.xml",
-            "name": "循环变量",
+            "name": "循环变量（0-9）",
             "description": "Adds a simple loop from 0 to 9 by 1"
         },
         {
             "id": "forArray",
-            "category": "Loop",
+            "category": "变量相关模块",
             "url": "snippets/loop/forArray.xml",
             "name": "循环变量 (计数)",
             "description": "Adds a simple loop from 0 to CountOf() by 1"
@@ -66,7 +66,7 @@
         },
         {
             "id": "getPlayerStateBool",
-            "category": "Player",
+            "category": "玩家状态模块",
             "url": "snippets/player/getPlayerStateBool.xml",
             "name": "获取玩家状态布尔值",
             "description": "Adds a pre-filled GetPlayerState block with EventPlayer and PlayerState(Bool) selection value"
@@ -87,37 +87,37 @@
         },
         {
             "id": "executeEverySecondGlobal",
-            "category": "Time",
+            "category": "时间循环模块",
             "url": "snippets/time/executeEverySecondGlobal.xml",
-            "name": "Execute Every Second (Global)",
+            "name": "时间循环 (全局)",
             "description": "Adds two rules and one subroutine that is executed every second in the global context"
         },
         {
             "id": "executeEverySecondPlayer",
             "category": "Time",
             "url": "snippets/time/executeEverySecondPlayer.xml",
-            "name": "Execute Every Second (Player)",
+            "name": "时间循环 (玩家)",
             "description": "Adds two rules and one subroutine that is executed every second in each player context"
         },
         {
             "id": "executeEverySecondTeam",
             "category": "Time",
             "url": "snippets/time/executeEverySecondTeam.xml",
-            "name": "Execute Every Second (Team)",
+            "name": "时间循环 (队伍)",
             "description": "Adds two rules and one subroutine that is executed every second for each team"
         },
         {
             "id": "displayRemainingTimeMMss",
             "category": "Time",
             "url": "snippets/time/displayRemainingTimeMMss.xml",
-            "name": "Display Remaining Time (mm:ss)",
+            "name": "显示剩余时间 (mm:ss)",
             "description": "Adds a subroutine which will display the remaining game mode time in the format of mm:ss"
         },
         {
-            "id": "teamSwitchUtility",
+            "id": "团队切换实战模块",
             "category": "Gameplay",
             "url": "snippets/gameplay/teamSwitchUtility.xml",
-            "name": "Teamswitch Utility",
+            "name": "团队切换实战",
             "description": "Adds a set of rules to enable teamswitch"
         }
     ]
