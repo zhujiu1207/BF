@@ -17,7 +17,7 @@
         },
         {
             "id": "bounceBackPlayer",
-            "category": "Vector",
+            "category": "方向和击退",
             "url": "snippets/vector/bounceBackPlayer.xml",
             "name": "向后击退玩家",
             "description": "Adds two subroutines which enable bouncing back a player in the opposite direction of his current movement"
@@ -45,21 +45,21 @@
         },
         {
             "id": "tickrate",
-            "category": "Loop",
+            "category": "变量相关模块",
             "url": "snippets/loop/tickrate.xml",
             "name": "索引变量",
             "description": "Adds a complex set of rules and a tick subroutine which is called by every server-tick"
         },
         {
             "id": "while",
-            "category": "Loop",
+            "category": "变量相关模块",
             "url": "snippets/loop/while.xml",
             "name": "同时模块",
             "description": "Adds a while-loop with a wait block"
         },
         {
             "id": "displayPositionCoordinates",
-            "category": "玩家模块",
+            "category": "玩家坐标模块",
             "url": "snippets/player/displayPositionCoordinates.xml",
             "name": "获取地图坐标",
             "description": "Adds a rule to continuously display the current players position in the header message"
@@ -73,14 +73,14 @@
         },
         {
             "id": "getPlayerStateNumber",
-            "category": "Player",
+            "category": "玩家状态模块",
             "url": "snippets/player/getPlayerStateNumber.xml",
             "name": "获取玩家状态数量",
             "description": "Adds a pre-filled GetPlayerState block with EventPlayer and PlayerState(Number) selection value"
         },
         {
             "id": "getPlayerStateVector",
-            "category": "Player",
+            "category": "玩家状态模块",
             "url": "snippets/player/getPlayerStateVector.xml",
             "name": "获取玩家状态矢量",
             "description": "Adds a pre-filled GetPlayerState block with EventPlayer and PlayerState(Vector) selection value"
@@ -94,28 +94,28 @@
         },
         {
             "id": "executeEverySecondPlayer",
-            "category": "Time",
+            "category": "时间循环模块",
             "url": "snippets/time/executeEverySecondPlayer.xml",
             "name": "时间循环 (玩家)",
             "description": "Adds two rules and one subroutine that is executed every second in each player context"
         },
         {
             "id": "executeEverySecondTeam",
-            "category": "Time",
+            "category": "时间循环模块",
             "url": "snippets/time/executeEverySecondTeam.xml",
             "name": "时间循环 (队伍)",
             "description": "Adds two rules and one subroutine that is executed every second for each team"
         },
         {
             "id": "displayRemainingTimeMMss",
-            "category": "Time",
+            "category": "时间循环模块",
             "url": "snippets/time/displayRemainingTimeMMss.xml",
             "name": "显示剩余时间 (mm:ss)",
             "description": "Adds a subroutine which will display the remaining game mode time in the format of mm:ss"
         },
         {
             "id": "团队切换实战模块",
-            "category": "Gameplay",
+            "category": "团队切换实战模块",
             "url": "snippets/gameplay/teamSwitchUtility.xml",
             "name": "团队切换实战",
             "description": "Adds a set of rules to enable teamswitch"
